@@ -20,8 +20,9 @@ public class InfoActivity extends Activity {
         setContentView(R.layout.activity_info);
         final TextView textView = (TextView) findViewById(R.id.infotext);
        
-    	Log.e("test", "====InfoActivity====");
+    	Log.e("test", "====InfoActivity====    ");
 
+    	//test
         UsbManager usbManager =(UsbManager)getSystemService(Context.USB_SERVICE);      
         
         HostAccessoryUtils usbAccessoryUtils = new HostAccessoryUtils(this);
